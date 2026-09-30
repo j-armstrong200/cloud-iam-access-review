@@ -1,0 +1,9 @@
+username,department,role,mfa_enabled,last_login_days,account_status
+jsmith,Finance,User,Yes,3,Active
+agarcia,Legal,User,Yes,8,Active
+mjones,IT,Administrator,Yes,2,Active
+bwilliams,Marketing,User,No,14,Active
+tlee,Finance,Administrator,No,5,Active
+rjohnson,Legal,User,Yes,120,Active
+svc_backup,IT,Service Account,No,1,Active
+kdavis,HR,User,Yes,45,Disabled
