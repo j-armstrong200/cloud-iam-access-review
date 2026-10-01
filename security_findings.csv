@@ -1,0 +1,4 @@
+username,severity,finding
+bwilliams,Medium,Active user account without MFA
+tlee,High,Administrator without MFA
+rjohnson,Medium,Active account dormant for over 90 days
