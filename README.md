@@ -14,6 +14,7 @@ The Python script checks for:
 - Active user accounts that have not logged in for more than 90 days
 - Active human user accounts that do not have MFA enabled
 - Service accounts that should be handled differently from standard user accounts
+- Generates a CSV report of identified security findings with severity levels
 
 ## Technologies and Concepts
 
@@ -33,13 +34,13 @@ The script identifies findings such as:
 ```text
 REVIEW: bwilliams has an active account without MFA.
 WARNING: tlee is an Administrator without MFA!
-REVIEW: tlee has an active account without MFA.
 WARNING: rjohnson has an active account but has not logged in for over 90 days!
 ```
 
 ## Files
 - access_review.py - Python script that performs the security checks
 - users.csv - Sample IAM user account data
+- security_findings.csv - Automatically generated report containing identified security findings and severity levels
 - README.md - Project documentation
 
 ## What I Learned
